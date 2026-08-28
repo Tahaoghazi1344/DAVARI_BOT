@@ -9,7 +9,7 @@ export interface Env {
 
   // Secrets — این‌ها از قبل در Cloudflare تنظیم شده‌اند، هرگز Hard-code نشوند
   BOT_TOKEN: BOT_TOKEN;
-  BOT_SECRET: 8951099478:AAECnmjYZl8nRJeWO-7yXGUEuSX8dHVI8b4;
+  BOT_SECRET: "8951099478:AAECnmjYZl8nRJeWO-7yXGUEuSX8dHVI8b4";
   OWNER_ID: 984542821;
 }
 
