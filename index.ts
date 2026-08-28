@@ -4,13 +4,13 @@
 
 /** Bindingهای Cloudflare Worker (تعریف‌شده در wrangler.toml + Secrets) */
 export interface Env {
-  BOT_DB: D1Database;
-  BOT_KV: KVNamespace;
+  BOT_DB: bot_data;
+  BOT_KV: Davari_bot_KV;
 
   // Secrets — این‌ها از قبل در Cloudflare تنظیم شده‌اند، هرگز Hard-code نشوند
-  BOT_TOKEN: string;
-  BOT_SECRET: string;
-  OWNER_ID: string;
+  BOT_TOKEN: BOT_TOKEN;
+  BOT_SECRET: 8951099478:AAECnmjYZl8nRJeWO-7yXGUEuSX8dHVI8b4;
+  OWNER_ID: 984542821;
 }
 
 /** نقش‌های سیستمی کاربر */
