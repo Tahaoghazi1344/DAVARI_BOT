@@ -11,12 +11,12 @@ compatibility_flags = ["nodejs_compat"]
 
 [[d1_databases]]
 binding = "BOT_DB"
-database_name = "REPLACE_WITH_YOUR_D1_NAME"
-database_id = "REPLACE_WITH_YOUR_D1_ID"
+database_name = "bot_data"
+database_id = "DB"
 
 [[kv_namespaces]]
-binding = "BOT_KV"
-id = "REPLACE_WITH_YOUR_KV_ID"
+binding = "Davari_bot_KV"
+id = "KV"
 
 # Secrets مورد انتظار (با wrangler secret put تنظیم کن، نه اینجا):
 #   BOT_TOKEN        -> توکن ربات تلگرام
