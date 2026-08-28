@@ -3,12 +3,6 @@ main = "index.ts"
 compatibility_date = "2024-09-01"
 compatibility_flags = ["nodejs_compat"]
 
-# =====================================================================
-# این بخش‌ها را با نام واقعی D1 / KV که از قبل در Cloudflare ساخته‌ای
-# جایگزین کن. توکن ربات، Secret و Owner ID را اینجا قرار نده — آن‌ها
-# باید با دستور `wrangler secret put` تنظیم شده باشند (طبق پیش‌فرض پروژه).
-# =====================================================================
-
 [[d1_databases]]
 binding = "BOT_DB"
 database_name = "bot_data"
@@ -17,8 +11,3 @@ database_id = "4b01d685-7046-4e18-b2b8-ca4881e2dc7a"
 [[kv_namespaces]]
 binding = "BOT_KV"
 id = "7f5b66b9b406467194e89f4c9f013597"
-
-# Secrets مورد انتظار (با wrangler secret put تنظیم کن، نه اینجا):
-#   BOT_TOKEN        -> توکن ربات تلگرام
-#   BOT_SECRET       -> Secret Token برای اعتبارسنجی Webhook تلگرام
-#   OWNER_ID         -> آیدی عددی تلگرام صاحب ربات
