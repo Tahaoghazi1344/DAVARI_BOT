@@ -15,7 +15,7 @@ database_name = "bot_data"
 database_id = "4b01d685-7046-4e18-b2b8-ca4881e2dc7a"
 
 [[kv_namespaces]]
-binding = "Davari_bot_KV"
+binding = "BOT_KV"
 id = "7f5b66b9b406467194e89f4c9f013597"
 
 # Secrets مورد انتظار (با wrangler secret put تنظیم کن، نه اینجا):
